@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment[en_US]=Mobile as gamepad without client app
+Comment=Mobile as gamepad without client app
+# Needs to be changed to the actual path of the script
+Exec=foot /home/alr86/Applications/node-virtual-gamepads/run.sh
+GenericName[en_US]=Mobile as gamepad without client app
+GenericName=Mobile as gamepad without client app
+Icon=input-gamepad
+Name[en_US]=Node Virtual Gamepads
+Name=Node Virtual Gamepads
+StartupNotify=true
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false

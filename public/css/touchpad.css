@@ -1,0 +1,165 @@
+body {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+body.dark {
+    background: #292929 url(../images/noise.png);
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.action-btn {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.action-btn img {
+    height: 3rem;
+}
+
+#btn-dark {
+    top: .2rem;
+    left: 3.4rem;
+}
+
+#btn-fullscreen {
+    top: .2rem;
+    left: .2rem;
+}
+
+#menu {
+    background: #222;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 50px;
+    z-index: 10;
+}
+
+#touchpad {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+#touchpad-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 20%;
+    background: -moz-radial-gradient(ellipse farthest-corner, rgba(255, 255, 255, 0.10) 0%, rgba(0, 0, 0, 0.01) 100%); /* FF3.6+ */
+    background: -webkit-radial-gradient(ellipse farthest-corner, rgba(255, 255, 255, 0.10) 0%, rgba(0, 0, 0, 0.01) 100%); /* Chrome10+,Safari5.1+ */
+    border-bottom: 1px solid #242424;
+}
+
+#touchpad-btn_left {
+    left: 0;
+    right: 50%;
+    border-right: 1px solid #242424;
+}
+
+#touchpad-btn_right {
+    left: 50%;
+    right: 0;
+    border-left: 1px solid #383838;
+}
+
+#touchpad-btn_left,
+#touchpad-btn_right {
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    border-top: 1px solid #383838;
+}
+
+#connecting {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#connecting span {
+    color: #fff;
+    text-align: center;
+    font-family: monospace;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    -moz-animation: blink 0.7s infinite;
+    -webkit-animation: blink 0.7s infinite;
+}
+
+#settings-gear {
+    position: absolute;
+    top: .2rem;
+    right: .2rem;
+    float: right;
+    cursor: pointer;
+    z-index: 999;
+}
+
+#settings-gear img {
+    width: 3rem;
+    height: 3rem;
+    fill: #666;
+    cursor: pointer;
+}
