@@ -11,15 +11,17 @@ This repo is a fork of node-virtual-gamepads with some changes(just tested in li
 - XBOX-Style buttons layout
 - PreDefiend `.desktop` files to run script(needs change)
 
-Install and run:
-------------
-    git clone https://github.com/miroof/node-virtual-gamepads-revived
+## Install and run:
+```bash
+    git clone https://github.com/alr86/node-virtual-gamepads-revived
     cd node-virtual-gamepads-revived
     ./run.sh
-
+```
+## ScreenShot:
+(Red L2-R2 Buttons over D-pad only works when gyro enabled)
+![Standalone installation step 1](https://github.com/alr86/node-virtual-gamepads-revived/blob/master/public/images/screenshot.jpg?raw=true)
 ---
 # Node-Virtual-Gamepads ReadMe:
----
 
 This nodejs application turns your smartphone into a gamepad controller on Linux OS simply by reaching a local address.
 You can virtually plug in multiple gamepad controllers.
