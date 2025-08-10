@@ -1,4 +1,4 @@
-# node-virtual-gamepads-new
+# Node-Virtual-Gamepads-Revived ReadMe:
 
 This repo is a fork of node-virtual-gamepads with some changes(just tested in linux):
 
@@ -11,6 +11,14 @@ This repo is a fork of node-virtual-gamepads with some changes(just tested in li
 - XBOX-Style buttons layout
 - PreDefiend `.desktop` files to run script(needs change)
 
+Install and run:
+------------
+    git clone https://github.com/miroof/node-virtual-gamepads-revived
+    cd node-virtual-gamepads-revived
+    ./run.sh
+
+---
+# Node-Virtual-Gamepads ReadMe:
 ---
 
 This nodejs application turns your smartphone into a gamepad controller on Linux OS simply by reaching a local address.
@@ -26,22 +34,12 @@ Prerequisite
 ------------
 This application is only compatible with Linux OS with the **uinput** kernel module installed.
 
-Installation
-------------
-    git clone https://github.com/miroof/node-virtual-gamepads
-    cd node-virtual-gamepads
-    npm install
-
 If you encounter problems while installing or running node-virtual-gamepads have
 a look at the [troubleshooting](TROUBLESHOOTING.md) page.
 
 You can now configure the server to your needs. Just open `config.json`
 with the editor of you choice and adjust the values. Explanation of the
 individual values can be found in [README_CONFIG.md](README_CONFIG.md).
-
-To start the server run
-    
-    sudo node main.js
 
 Usage
 -----
