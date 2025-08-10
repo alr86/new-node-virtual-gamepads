@@ -2,7 +2,7 @@
 
 This repo is a fork of node-virtual-gamepads with some changes(just tested in linux):
 
-- Run script with QR-Code
+- Show server QR-Code
 - Gyro support
 - Dark Mode
 - An Script to test gamepads
